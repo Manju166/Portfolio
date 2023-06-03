@@ -33,17 +33,45 @@ background: #eff4fd;
 .nav ul li a{
     text-decoration: none;
 }
+a:hover{
+    color: red;
+}
 .first{
     margin-top: 150px;
     margin-left: 100px;
     margin-right: 90px;
 }
+.first p{
+    padding: 20px;
+    padding-left: 0px;
+}
 .second{
     display: flex;
     
 }
+i{
+    position: relative;
+    border: 2px solid #0ef;
+    padding: 10px;
+    border-radius: 50%;
+    color: #0ef;
+    margin: 0px 8px;
+}
+i:hover{
+    box-shadow: 0 0 20px #0ef;
+}
+button{
+    background-color: #0ef;
+    margin-top: 50px;
+    padding: 15px 70px;
+    border-radius: 30px;
+    font-weight: 600;
+    box-shadow: 0 0 15px #0ef;
+}
 .img{
     margin-top: 100px;
-    box-shadow: 20px 30px rgb(73, 63, 63);
-    border-radius: 20px 30px;
+    box-shadow: 20px 20px rgb(211, 203, 203);
+}
+img{
+    border-radius: 5% 5% 0 0;
 }
