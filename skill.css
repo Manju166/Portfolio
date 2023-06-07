@@ -148,10 +148,10 @@ ul{
 .progress5::before{
     position: absolute;
     content: attr(data-label);
-    width: 80%;
-    min-width: 80%;
+    width: 55%;
+    min-width: 55%;
     border: 2px solid rgb(218, 198, 198);
-    width: calc(var(--width,0)*80%);
+    width: calc(var(--width,0)*55%);
     background-color: rgb(0, 217, 255);
     height: 0.3em;
     border-radius: 1.5em;
